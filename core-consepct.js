@@ -84,9 +84,30 @@ console.log('factrorial is ', newFactorial2);
 
 // new home Work
 // 1. celcius To Farenheit(celsius) {
-
 // }
 
+let cilcius = 1;
+let farenheit = cilcius * 1.8000 + 31;
+console.log('farenheit', farenheit);
+
+
 // 2. Farenheit to celcius
+
+let f = 1
+let c = ((f - 32) / 1.8000);
+console.log(c);
+
+
+
+
 // 3. grade calculation
-// 4. simple interst
+var mark = 90;
+if (mark < 90 && mark >= 80) {
+    console.log('A+')
+}
+else {
+    console.log('fall');
+}
+
+
+// 4. simple interst **
