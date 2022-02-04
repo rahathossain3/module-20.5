@@ -87,7 +87,8 @@ console.log('factrorial is ', newFactorial2);
 // }
 
 let cilcius = 1;
-let farenheit = cilcius * 1.8000 + 31;
+let farenheit = cilcius * 1.8000 + 32;
+// let farenheit = cilcius * 9 / 5 + 32;            //another way
 console.log('farenheit', farenheit);
 
 
@@ -95,6 +96,7 @@ console.log('farenheit', farenheit);
 
 let f = 1
 let c = ((f - 32) / 1.8000);
+// let c = ((f - 32) * 5 / 9);            //another way
 console.log(c);
 
 
